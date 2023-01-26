@@ -1,7 +1,7 @@
 body {
     
     background: linear-gradient( #884EA0  , orange);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     background-attachment: fixed;
     }
@@ -34,8 +34,9 @@ header .logo{
     box-shadow: -2px 3px #4A235A;
 }
 
-
-
+nav div {
+    display: inline-block;
+}
 nav .logo{
     width: 30px;
     height: 30px;
@@ -56,26 +57,26 @@ section li{
     padding: 5px;
     margin-left: -40px;
 }
+/*
 section .btn{
     text-decoration: none;
     color: black;
-    text-align: center;
+    
 }
+*/
 
 
-
-.btn {
-    font-family: 'Roboto', sans-serif;
+section .btn {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
     background: grey;
-    color: black;
     padding: 2px;
-    text-decoration: none;
     border: solid 0.5px black;
     border-radius: 5px;
     box-shadow: -1px 2px black;
-
-
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -99,6 +100,11 @@ footer a{
 color: black;
 text-decoration: none;
 
+}
+
+.foto {
+    
+    border: solid 2px #4A235A;
 }
 /*
 

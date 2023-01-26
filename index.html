@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +44,7 @@
 <header>
         <div itemscope itemtype="https://schema.org/Person"></div>
         <h1 itemprop="name" class="titulo"> "La Salchinetta" </h1>
-        <span itemprop="author">Germán Reyna</span>
+        <!--<p><span itemprop="author">Germán Reyna</span></p>-->
         <div>
             
         <a href="file:///C:/Users/germa/OneDrive/Escritorio/Reto%20N%C2%B01/index.html"> <img src="Img/logo.png" alt="logo Salchineta" class="logo"></a>
@@ -54,13 +54,26 @@
                 
         <!--aplicar css-->
 <nav>
-            
-            <div itemscope itemtype="">
-          <span itemprop="profile"><a href="direccion linkedin" target="_blank"> <img src="Img/Linkedin.png" alt="" class="logo"></a></span>
-                <a href="https://www.instagram.com/ger.reyna123/" target="_blank"> <img src="Img/Instagram.png" alt="" class="logo"></a>
-                <a href="https://github.com/" target="_blank"> <img src="Img/Github.png" alt="" class="logo"></a>
-                <a href="mailto:german.reyna@live.com" target="_blank"> <img src="Img/Mail.png" alt="" class="logo"></a>
-            </div>
+    <div>      
+    <div itemscope itemtype="https://schema.org/SocialMediaPosting">
+        <p><span itemprop="profile"><a href="direccion linkedin" target="_blank"> <img src="Img/Linkedin.png" alt="" class="logo"></a></span></p>
+    </div>
+
+    <div itemscope itemtype="https://schema.org/SocialMediaPosting">
+        <p><span itemprop="sharedContent"><a href="https://www.instagram.com/ger.reyna123/" target="_blank"> <img src="Img/Instagram.png" alt="" class="logo"></a></span></p>
+    </div>    
+        
+        <div itemscope itemtype="https://schema.org/codeRepository"> 
+                <p><span itemprop="codeRepository"><a href="https://github.com/" target="_blank"> <img src="Img/Github.png" alt="" class="logo"></a></span></p>
+        </div> 
+
+        <div itemscope itemtype="https://schema.org/email" >
+            <p><span itemprop="mail"><a href="mailto:german.reyna@live.com" target="_blank"> <img src="Img/Mail.png" alt="" class="logo"></a> </span></p>
+        </div>
+    </div>    
+    
+
+
             
             
 </nav>
@@ -94,7 +107,11 @@
 
 <footer>
 <hr>
-<p> copyright <a href="@ger.reyna123">@ger.reyna123</a></p>
+
+<div itemscope itemtype="https://schema.org/copyrightHolder">
+    <p itemprop="copyright"> copyright <a href="@ger.reyna123">@ger.reyna123</a></p>
+</div>
+
         
 </footer>
 
